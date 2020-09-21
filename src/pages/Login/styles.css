@@ -1,0 +1,61 @@
+.bgLogin{
+    display: flex;
+    background-color: blueviolet;
+    height: 500px;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 2px 2px 5px 1px rgb(122, 122, 122);
+    
+}
+.bgForm{
+    background-color: #fff;    
+    height: 500px;
+    width: 50%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    margin-top: 50px;
+}
+input{
+    width: 80%;
+    height: 25px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 17px;
+    border:0;
+    border-bottom: inset 1px rgb(160, 160, 160); 
+}
+input, button:focus{
+    outline: none;
+}
+button[type="submit"]{
+    width: 82%;
+    margin: auto;
+    margin-bottom:0;
+    height: 40px;
+    background-color:rgb(12, 184, 12) ;
+    border:0;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+}
+button:hover{
+    -webkit-transform: scale(1.05);
+    transition: 0.3s;
+}
+#iconPrincipal{
+    display: flex;
+    height: 150px;
+    margin: auto;
+    margin-top: 20px;
+}
+.bgImage{
+    background-image: url(../../assets/bglogin.jpg);
+    background-size: 400px 500px;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 50%;
+}
