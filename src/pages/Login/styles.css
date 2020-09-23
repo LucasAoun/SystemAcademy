@@ -1,61 +1,82 @@
 .bgLogin{
     display: flex;
-    background-color: blueviolet;
+    background-color: rgb(119, 183, 192);
     height: 500px;
-    width: 50%;
+    width: 63%;
     margin: auto;
     margin-top: 50px;
-    box-shadow: 2px 2px 5px 1px rgb(122, 122, 122);
-    
+    box-shadow: 10px 10px 30px -5px rgb(0, 0, 0);
+    border-radius: 7px;
 }
 .bgForm{
-    background-color: #fff;    
-    height: 500px;
-    width: 50%;
-}
-form{
     display: flex;
     flex-direction: column;
-    height: 220px;
-    margin-top: 50px;
+    background-color: rgb(255, 255, 255);    
+    height: 500px;
+    width: 50%;
+    border-radius: 7px;
+}
+.bgForm form{
+    height: 300px;
+    margin-top: 20px;
+}
+a{
+    float: right;
+    margin: auto;
+    margin-right:50px ;
 }
 input{
-    width: 80%;
+    width: 90%;
     height: 25px;
+    border:0;
+    border-bottom: inset 1px rgb(196, 194, 194);
+    background-color: rgba(255, 255, 255, 0.01);  
+}
+#inputUser, #inputPass{
+    display: flex;
     margin: auto;
     margin-top: 0;
-    margin-bottom: 17px;
-    border:0;
-    border-bottom: inset 1px rgb(160, 160, 160); 
+    margin-bottom: 25px;
+    width: 80%;
+    font-size: 18px;
+    color: rgb(196, 194, 194);
+}
+input:focus-within{
+    border-color:rgb(47, 235, 56);
+}
+form i{  
+  margin-top: 10px;
+  margin-right:14px ;
 }
 input, button:focus{
     outline: none;
 }
+
 button[type="submit"]{
-    width: 82%;
-    margin: auto;
-    margin-bottom:0;
+    display: block;
+    position: relative;
+    top: 80px;
+    width: 80%;
     height: 40px;
+    margin: auto;
     background-color:rgb(12, 184, 12) ;
     border:0;
     cursor: pointer;
     color: #fff;
     transition: 0.3s;
 }
+
 button:hover{
     -webkit-transform: scale(1.05);
     transition: 0.3s;
 }
-#iconPrincipal{
+.bgForm #iconPrincipal{
     display: flex;
     height: 150px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .bgImage{
-    background-image: url(../../assets/bglogin.jpg);
-    background-size: 400px 500px;
-    background-repeat: no-repeat;
-    height: 500px;
     width: 50%;
+    height: 500px;
 }
