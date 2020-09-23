@@ -1,20 +1,18 @@
 .bgLogin{
     display: flex;
-    background-color: rgb(119, 183, 192);
     height: 500px;
-    width: 63%;
+    width: 70%;
     margin: auto;
     margin-top: 50px;
+    border-radius: 10px;
     box-shadow: 10px 10px 30px -5px rgb(0, 0, 0);
-    border-radius: 7px;
 }
-.bgForm{
-    display: flex;
-    flex-direction: column;
+.bgForm{    
+    display: block;
     background-color: rgb(255, 255, 255);    
     height: 500px;
+    border-radius: 0px 10px 10px 0px;
     width: 50%;
-    border-radius: 7px;
 }
 .bgForm form{
     height: 300px;
@@ -77,6 +75,8 @@ button:hover{
     margin-top: 30px;
 }
 .bgImage{
+    border-radius: 10px 0px 0px 10px;
     width: 50%;
+    background-color: blueviolet;
     height: 500px;
 }
