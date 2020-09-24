@@ -1,5 +1,7 @@
+*{
+  font-family: 'Roboto';
+}
 body{
-  background-image: url('./assets/background.jpg'); 
-  background-repeat: no-repeat;
+  background-image: linear-gradient(to right, rgba(197, 146, 226, 0), rgb(145, 3, 211));
   background-size: 100% auto;
 }

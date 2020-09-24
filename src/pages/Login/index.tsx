@@ -27,9 +27,14 @@ export const Login = () =>{
     return(
         <div className="bgLogin">
             <div className="bgImage">
-                <h1>Academy System</h1>
-            </div>
+                <h1>GymSystem</h1>
+                <p>Seja bem vindo ao seu sistema de gerencimento de alunos e matrículas</p>
+                <div id="vdivisor"></div>
+                <p>Com o GymSystem você pode controlar matrículas credenciadas, fazer seu planejamento de treinamentos, cadastrar alunos, tudo de forma ágil e sem complicações! </p>
+            </div>      
             <div className="bgForm">
+            <h1>GymSystem</h1>  
+            <p>Seja bem vindo ao seu sistema de gerencimento de alunos e matrículas</p>
                 <img id="iconPrincipal" src={Icon} alt=""/><br></br>
                 <form>
                     <div id="inputUser">
