@@ -14,12 +14,12 @@
     margin: auto;
     margin-top: 120px;
     margin-bottom: 0 ; 
-    font-size: 30px;
+    font-size: 25px;
 }
 .linkPages a{
     color: white;
     text-align: center;
-    height: 60px;
+    height: 50px;
     width: 60px;
     margin-bottom: 20px;
 }
@@ -31,7 +31,7 @@
 }
 .linkPages i{
     text-align: center;
-    margin-top: 15px;
+    margin-top: 13px;
 }
 .bodySidebar #exitIcon{
     color: white;
