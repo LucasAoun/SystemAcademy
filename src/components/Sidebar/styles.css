@@ -1,10 +1,39 @@
 .bodySidebar{
+    display: flex;
     width: 6.5%;
     height: 98vh;
-    background-color: tomato;
-    background-image: linear-gradient(to top, rgba(197, 146, 226, 0), rgb(145, 3, 211));
+    background-color: rgb(63, 63, 63);
     border-radius: 20px;
     margin-top: 5px;
     margin-left: 5px;
     margin-right: 5px;
+}
+.bodySidebar .linkPages{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 0 ; 
+    font-size: 30px;
+}
+.linkPages a{
+    color: white;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    margin-bottom: 20px;
+}
+.linkPages a:hover{
+    background-color: rgba(109, 62, 238, 0.87);
+    border-radius: 15px;
+    -webkit-transform: rotateY(360deg);
+    transition: 0.8s;
+}
+.linkPages i{
+    text-align: center;
+    margin-top: 15px;
+}
+.bodySidebar #exitIcon{
+    color: white;
+    margin-top: auto;
 }
