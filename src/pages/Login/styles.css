@@ -1,3 +1,10 @@
+#bodyLogin{
+    width: 100%;
+    height: 100vh;
+    background-color: tomato;
+    background-image: linear-gradient(to right, rgba(197, 146, 226, 0), rgb(145, 3, 211));
+    background-size: 100%;
+}
 .bgLogin{
     display: flex;
     position: relative;
@@ -89,13 +96,14 @@ button:hover{
     background-image: url('../../assets/bgImage.jpg');
     font-weight: 300;
 }
-.bgImage h1, p, #vdivisor {
+.bgImage h1, .bgImage p, .bgImage #vdivisor {
     text-align: center;
     position: relative;
     top: 120px;
     color: white;
     padding-right: 50px;
     padding-left:50px;
+    margin: 12px;
 }
 .bgImage #vdivisor{
     height: 1px;
@@ -124,6 +132,7 @@ button:hover{
     }
     .bgForm h1, .bgForm p{
     display: block;
+    margin: 15px;
     text-align: center;
     position: relative;
     top:20px;
@@ -139,6 +148,9 @@ button:hover{
         display: none;
     }
     ::placeholder{
+        color: white;
+    }
+    input{
         color: white;
     }
     .bgImage{
@@ -165,6 +177,7 @@ button:hover{
     }
     .bgForm h1, .bgForm p{
     display: block;
+    margin: 15px;
     text-align: center;
     position: relative;
     top:20px;

@@ -25,6 +25,7 @@ export const Login = () =>{
  
     
     return(
+        <div id="bodyLogin">
         <div className="bgLogin">
             <div className="bgImage">
                 <h1>GymSystem</h1>
@@ -39,7 +40,7 @@ export const Login = () =>{
                 <form>
                     <div id="inputUser">
                         <i className="fa fa-user"></i>  
-                        <input type="text" name="user" id="user" placeholder="Usuário" onChange={handleUserEntry} />
+                        <input type="text"  name="user" id="user" placeholder="Usuário" onChange={handleUserEntry} />
                     </div>
                     <div id="inputPass">
                          <i className="fa fa-lock"></i>
@@ -49,6 +50,7 @@ export const Login = () =>{
                     <button type="submit" onClick={authentication}><span>ENTRAR</span></button>
                 </form> 
             </div>
+        </div>
         </div>
     
     )
