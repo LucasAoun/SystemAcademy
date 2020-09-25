@@ -1,0 +1,10 @@
+.bodySidebar{
+    width: 6.5%;
+    height: 98vh;
+    background-color: tomato;
+    background-image: linear-gradient(to top, rgba(197, 146, 226, 0), rgb(145, 3, 211));
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
