@@ -68,14 +68,15 @@ button[type="submit"]{
     width: 80%;
     height: 40px;
     margin: auto;
-    background-color:rgb(12, 184, 12) ;
+    background-color: tomato;
+    background-image: linear-gradient(to right, rgba(197, 146, 226, 0), rgb(145, 3, 211));
     border:0;
     cursor: pointer;
     color: #fff;
     transition: 0.3s;
 }
 
-button:hover{
+#logIn:hover{
     -webkit-transform: scale(1.05);
     transition: 0.3s;
 }

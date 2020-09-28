@@ -1,3 +1,7 @@
+.bodyContent{
+    display: flex;
+    flex-wrap: wrap;
+}
 .contentArea{
     display: flex;
     width: 95%;
@@ -8,4 +12,17 @@
     top: 60px;
     border-radius: 10px;
     box-shadow: 10px 10px 30px -5px rgb(0, 0, 0);
+}
+#addNew{
+    position: relative;
+    top: 50px;
+    border: 0;
+    height: 20px;
+    background-color: #4c9fee;
+    color: #fff;
+    margin-left: auto;
+    right: 40px;
+    width: 120px;
+    border-radius: 3px;
+    cursor: pointer;
 }

@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom'
 const Sidebar = () =>{
     return(
         <div className="bodySidebar">
+             <h1>Gym</h1>
+             <p>System</p>            
             <div className="linkPages">
             <Link to=""><i className="fa fa-home"></i></Link>
             <Link to=""><i className="fas fa-users" ></i></Link>

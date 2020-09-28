@@ -47,7 +47,7 @@ export const Login = () =>{
                          <input type="password" name="passw" id="passw" placeholder="Senha" onChange={handlePassEntry}/>
                     </div>
                     <a href="#">Forgot your password?</a>
-                    <button type="submit" onClick={authentication}><span>ENTRAR</span></button>
+                    <button type="submit" id="logIn" onClick={authentication}><span>ENTRAR</span></button>
                 </form> 
             </div>
         </div>
