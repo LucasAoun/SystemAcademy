@@ -4,14 +4,17 @@ import { useState } from 'react'
 
 
 const Content = () =>{
-    const [show, setShow] = useState(false);
- 
+    const [isModal, setIsModal] = useState(false);
+
     return( 
         <div className="bodyContent">
-        <button id="addNew" onClick={() => setShow(true)}>+ Novo aluno</button>
+        <button id="addNew" onClick={()=>setIsModal(true)}>+ Novo aluno</button>
 
-        <div className="contentArea"></div>
+        <div className="contentArea">
+            
         </div>
+        </div>
+        
     )
 }
 
