@@ -3,7 +3,8 @@ import './styles.css'
 
 const Modal = () =>{
     return(
-        <div className="modalContent">
+        <div className="modalContainer">
+            <div className="modalContent">
             <div className="modalTitle">
                 <h1>Olá mundo</h1>
             </div>
@@ -13,6 +14,7 @@ const Modal = () =>{
                 <input type="number" id="cpfStudent" name="cpfStudent" placeholder="CPF"/>
                 <input type="date" id="dateNasc" name="dateNasc" placeholder="Data de nascimento"/>
             </form>
+            </div>
         </div>
     )
 }
