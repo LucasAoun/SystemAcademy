@@ -61,7 +61,7 @@ input, button:focus{
     outline: none;
 }
 
-button[type="submit"]{
+form #logIn{
     display: block;
     position: relative;
     top: 80px;

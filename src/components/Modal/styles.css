@@ -1,14 +1,74 @@
 .modalContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
     height: 100vh;
 }
 .modalContent{
-    text-align: center;
-    position: relative;
-    top: 50px;
-    z-index: 0;
-    margin: auto;
-    background-color: white;
-    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
     height: 500px;
-}   
+    background-color: #fff;
+    border-radius: 10px ;
+    overflow-y: scroll;
+}  
+
+::-webkit-scrollbar {
+    width: 6px;
+    border-radius: 100px;
+}
+::-webkit-scrollbar-thumb {
+    background: #4d4c4c;
+    border-radius: 10px;
+   
+}
+.modalTitle{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+} 
+.modalInput{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.modalInput input, .modalInput select{
+    border:1px solid rgb(202, 202, 202);
+    margin: 5px;
+    margin-top: 10px;
+    height: 35px;
+    width: 46%;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.modalInput .allContent{
+    width: 94.3%;
+}
+.modalInput .allContentSelect{
+    width: 95.4%;
+}
+::placeholder{
+    padding-left: 3px;
+    color: rgb(95, 95, 95);
+}
+.modalInput .modalButton{
+    width: 95.3%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.modalButton button{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(147, 82, 207);
+    color: #fff;
+    border: none;
+    margin: 12px;
+    margin-right: 0;
+    cursor: pointer;
+    border-radius: 4px;
+}
